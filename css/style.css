@@ -1,78 +1,137 @@
 *{
-	margin: 0;
-	padding: 0;
-    font-family: 'poppins',sans-serif;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.container{
-	width: 100%;
-	height: 100vh;
-	background: #deb887;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+
+
+.header-img{
+    height: auto;
+    position: relative;
+    width: 1500px;
+    /* background-color: red; */
+}
+.header-img img{
+    width:100%;
+    opacity: 0.7;
+    
+    /* display: block; */
 }
 
-.calculator{
-	background: black;
-	padding: 20px;
-	border-radius: 10px;
-	box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),15px 15px 15px rgba(0, 0, 0, 0.2);
+
+.center h1{
+    font-size: 60px;
 }
 
-.calculator form input{
-	border: 0;
-	outline: 0;
-	width: 60px;
-	height: 60px;
-	border-radius: 10px;
-	box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
-	background: transparent;
-	font-size: 20px;
-	color: white;
-	cursor: pointer;
-	margin: 10px;
+
+.top{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
 }
 
-form .display{
-	display: flex;
-	justify-content: flex-end;
-	margin: 20px 0;
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
 }
 
-form .display input{
-	text-align: right;
-	flex: 1;
-	font-size: 45px;
-	box-shadow: none;
+/*  */
+
+.steps {
+    height: auto;
+    position: relative;
+    width: 1500px;
 }
 
-form input.equal{
-	width: 145px;
+.steps img{
+    width:100%;
+    opacity: 0.7;
+    
+    /* display: block; */
 }
 
-form input.operator{
-	color: #FFA500;
+
+.top-center{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
 }
 
-form input.buttoncolor{
-  color: red;
+.top-mid-one{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
 }
 
-footer {
-  display: block;
-  background: gray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.top-mid-two{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
 }
 
-i{
-	font-size: 35px;
-	cursor: pointer;
-	position: absolute;
-	top: 9%;
-	left: 61%;
-	transform: translate(-50%,-50%);
+.top-mid-three{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
 }
+
+
+/* card css */
+
+.card-img-top{
+    width: 60;
+    /* border-radius: 100%; */
+    margin: 0 auto;
+}
+
+.card{
+    padding: 1.5em .5em .5em;
+    text-align: center;
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+
+.card-title{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.btn-success{
+    border-radius: 2em;
+}
+
+
+
+
+.pricing{
+    background-color: rgb(25, 135, 84);
+    padding-bottom: 10%;
+}
+
+.review{
+    background-color: rgba(86, 175, 19, 0.77);
+    padding-bottom: 10%;
+}
+
+img{
+    height: 50%;
+    width: 100%;
+    }
+    
+    
+    .footer{
+        height:100%;
+        width: 100%;
+        opacity: 0.7;
+        /* weight: 150%; */
+    }
